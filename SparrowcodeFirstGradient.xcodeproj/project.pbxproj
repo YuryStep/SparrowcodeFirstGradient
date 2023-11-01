@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		EFDE0CB32AF24B4500B7A5BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE0CB22AF24B4500B7A5BE /* AppDelegate.swift */; };
 		EFDE0CB52AF24B4500B7A5BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE0CB42AF24B4500B7A5BE /* SceneDelegate.swift */; };
-		EFDE0CB72AF24B4500B7A5BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE0CB62AF24B4500B7A5BE /* ViewController.swift */; };
+		EFDE0CB72AF24B4500B7A5BE /* GradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE0CB62AF24B4500B7A5BE /* GradientViewController.swift */; };
 		EFDE0CBA2AF24B4500B7A5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDE0CB82AF24B4500B7A5BE /* Main.storyboard */; };
 		EFDE0CBC2AF24B4600B7A5BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDE0CBB2AF24B4600B7A5BE /* Assets.xcassets */; };
 		EFDE0CBF2AF24B4600B7A5BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDE0CBD2AF24B4600B7A5BE /* LaunchScreen.storyboard */; };
+		EFDE0CC72AF2632700B7A5BE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE0CC62AF2632700B7A5BE /* UIView+Extension.swift */; };
+		EFDE0CC92AF266FA00B7A5BE /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDE0CC82AF266FA00B7A5BE /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EFDE0CAF2AF24B4500B7A5BE /* SparrowcodeFirstGradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparrowcodeFirstGradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDE0CB22AF24B4500B7A5BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFDE0CB42AF24B4500B7A5BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFDE0CB62AF24B4500B7A5BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFDE0CB62AF24B4500B7A5BE /* GradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController.swift; sourceTree = "<group>"; };
 		EFDE0CB92AF24B4500B7A5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFDE0CBB2AF24B4600B7A5BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFDE0CBE2AF24B4600B7A5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFDE0CC02AF24B4600B7A5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDE0CC62AF2632700B7A5BE /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		EFDE0CC82AF266FA00B7A5BE /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 			children = (
 				EFDE0CB22AF24B4500B7A5BE /* AppDelegate.swift */,
 				EFDE0CB42AF24B4500B7A5BE /* SceneDelegate.swift */,
-				EFDE0CB62AF24B4500B7A5BE /* ViewController.swift */,
+				EFDE0CB62AF24B4500B7A5BE /* GradientViewController.swift */,
+				EFDE0CC62AF2632700B7A5BE /* UIView+Extension.swift */,
 				EFDE0CB82AF24B4500B7A5BE /* Main.storyboard */,
 				EFDE0CBB2AF24B4600B7A5BE /* Assets.xcassets */,
+				EFDE0CC82AF266FA00B7A5BE /* Colors.xcassets */,
 				EFDE0CBD2AF24B4600B7A5BE /* LaunchScreen.storyboard */,
 				EFDE0CC02AF24B4600B7A5BE /* Info.plist */,
 			);
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFDE0CBF2AF24B4600B7A5BE /* LaunchScreen.storyboard in Resources */,
+				EFDE0CC92AF266FA00B7A5BE /* Colors.xcassets in Resources */,
 				EFDE0CBC2AF24B4600B7A5BE /* Assets.xcassets in Resources */,
 				EFDE0CBA2AF24B4500B7A5BE /* Main.storyboard in Resources */,
 			);
@@ -138,8 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFDE0CB72AF24B4500B7A5BE /* ViewController.swift in Sources */,
+				EFDE0CB72AF24B4500B7A5BE /* GradientViewController.swift in Sources */,
 				EFDE0CB32AF24B4500B7A5BE /* AppDelegate.swift in Sources */,
+				EFDE0CC72AF2632700B7A5BE /* UIView+Extension.swift in Sources */,
 				EFDE0CB52AF24B4500B7A5BE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
