@@ -14,8 +14,8 @@ final class GradientViewController: UIViewController {
         static let shadowOpacity: Float = 0.5
         static let shadowRadius: CGFloat = 5
         static let leadingPadding: CGFloat = 100
-        static let shadowWidth = 0
-        static let shadowHeight = 5
+        static let shadowWidth = 10
+        static let shadowHeight = 10
     }
 
     private lazy var squareView: UIView = {
